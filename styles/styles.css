@@ -110,13 +110,21 @@ button{
 }
 /* background section  */
 .bg-img{
-    background-image: url("../images/watch.png");
-    width: 1140px;
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    /* margin: 130px 230px  ; */
-}
+    background-image: linear-gradient(to right, rgba(85, 80, 80, 0.425), rgba(143, 106, 106, 0.87)), url(../images/watch.png); 
+    width: 1000px;
+    height: 250px;
+    margin: 30px auto;
+    border-radius: 7px;     
+}  
+.bg-text{
+    padding-left: 50px;
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+} 
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+} 
  
