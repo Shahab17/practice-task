@@ -47,7 +47,7 @@ button{
 /* My failures of previous year section  */
 .container{
      
-    margin: 50px; 
+    margin: 50px auto; 
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
@@ -110,10 +110,10 @@ button{
 }
 /* background section  */
 .bg-img{
-    background-image: linear-gradient(to right, rgba(85, 80, 80, 0.425), rgba(143, 106, 106, 0.87)), url(../images/watch.png); 
+    background-image: linear-gradient(to right, rgba(48, 44, 44, 0.726), rgba(118, 152, 190, 0.644)), url(../images/watch.png); 
     width: 1000px;
     height: 250px;
-    margin: 30px auto;
+    margin: 80px auto;
     border-radius: 7px;     
 }  
 .bg-text{
