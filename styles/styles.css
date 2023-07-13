@@ -127,4 +127,31 @@ button{
     height: 40px;
     margin-top: 10px;
 } 
- 
+ /* footer section */
+ .footer-container{
+    height: 500px;
+    background-color: #3b3838c0;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 40px;
+ }
+ .footer-title{
+    color: white;
+ }
+ .footer-head{
+    font-size: 40px;
+    font-family: work sans;
+ }
+ .footer-para{
+    width: 485px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 25px;
+    font-style: italic;
+ }
+ .footer-img{
+    margin-right: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+ }
